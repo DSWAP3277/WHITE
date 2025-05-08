@@ -10,5 +10,5 @@ local function Bmd()
 end
 if Bmd() then
 else
-    game.Players.LocalPlayer:kick("找山风获取白名单")
+    game.Players.LocalPlayer:kick("找山风获取白名单:Aoutzy")
 end
