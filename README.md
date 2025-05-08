@@ -1,4 +1,1 @@
-return {
-5088676695 = true,
-5335271770 = ture,
-}
+local LocalPlayerUserId = game.Players.LocalPlayer.UserIdlocal UserId = {5088676695,5335271770}local function Bmd()    for _, UserId in pairs(UserId) do        if UserId == LocalPlayerUserId then            return true        end    endendif Bmd() thenelse    game.Players.LocalPlayer:kick("你不是Aoutzy用户")end
